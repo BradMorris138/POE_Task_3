@@ -112,13 +112,13 @@ namespace Task_3
             foreach(Units u in units)
             {
                 Button b = new Button();
-                if(u is Melee)
+                if (u is Melee)
                 {
                     Melee mu = (Melee)u;
                     b.Size = new Size(20, 20);
                     b.Location = new Point(mu.xPos * 20, mu.yPos * 20);
                     b.Text = mu.symbol;
-                    if(mu.team ==0)
+                    if (mu.team == 0)
                     {
                         b.ForeColor = Color.Blue;
                     }
@@ -130,40 +130,35 @@ namespace Task_3
                 else
                 {
                     Ranged_Unit ru = (Ranged_Unit)u;
-                    b.Size = new Size(20,20)
+                    b.Size = new Size(20, 20);
+                    b.Location = new Point(ru.xPos * 20, ru.yPos * 20);
+                    b.Text = ru.symbol;
+                    if (ru.team == 0)
+                    {
+                        b.ForeColor = Color.Blue;
+                    }
+                    else
+                    {
+                        b.ForeColor = Color.Orange;
+                    }
+
+                    foreach (Factory_Building fb in factorybuilding)
+                    {
+                        Label lblFactory = new Label();
+                        lblFactory.Width = 250;
+                        lblFactory.Height = 250;
+                        lblFactory.Location = new Point(fb.XPos * 40, fb.YPos * 40);
+                        lblFactory.Text = fb.Symbol;
+                    }
                 }
+                    
+
+               
             }
 
-            foreach (Ranged_Unit ru in rangedunits)
-            {
-                Label lblRange = new Label();
-                lblRange.Width = 100;
-                lblRange.Height = 100;
-                lblRange.Location = new Point(ru.xPos * 100, ru.yPos * 100);
-                lblRange.Text = ru.symbol;
+           
 
-                gbxBox.Controls.Add(lblRange);
-            }
-
-            foreach (Melee m in meleeunits)
-            {
-                Label lblMelee = new Label();
-                lblMelee.Width = 200;
-                lblMelee.Height = 200;
-                lblMelee.Location = new Point(m.xPos * 100, m.yPos * 100);//How much the positions change
-                lblMelee.Text = m.symbol;
-
-                gbxBox.Controls.Add(lblMelee);
-            }
-
-            foreach (Factory_Building fb in factorybuilding)
-            {
-                Label lblFactory = new Label();
-                lblFactory.Width = 250;
-                lblFactory.Height = 250;
-                lblFactory.Location = new Point(fb.XPos * 40, fb.YPos * 40);
-                lblFactory.Text = fb.Symbol;
-            }
+            
 
         }
         public void Unit_Click(object sender, EventArgs e)
