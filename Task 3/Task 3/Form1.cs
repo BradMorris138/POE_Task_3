@@ -13,6 +13,7 @@ namespace Task_3
     public partial class Form1 : Form
     {
         GameEngine engine;
+
         public Form1()
         {
             InitializeComponent();

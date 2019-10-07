@@ -145,21 +145,15 @@ namespace Task_3
                     foreach (Factory_Building fb in factorybuilding)
                     {
                         Label lblFactory = new Label();
-                        lblFactory.Width = 250;
-                        lblFactory.Height = 250;
+                        lblFactory.Width = 40;
+                        lblFactory.Height = 40;
                         lblFactory.Location = new Point(fb.XPos * 40, fb.YPos * 40);
                         lblFactory.Text = fb.Symbol;
                     }
-                }
-                    
-
-               
+                }          
+            gbxBox.Controls.Add(b);
             }
-
-           
-
             
-
         }
         public void Unit_Click(object sender, EventArgs e)
         {
