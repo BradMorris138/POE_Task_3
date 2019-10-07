@@ -1,0 +1,13 @@
+D:\Vega\Coding\Task 3\Task 3\obj\Debug\Task 3.csprojAssemblyReference.cache
+D:\Vega\Coding\Task 3\Task 3\obj\Debug\Task_3.Form1.resources
+D:\Vega\Coding\Task 3\Task 3\obj\Debug\Task_3.Properties.Resources.resources
+D:\Vega\Coding\Task 3\Task 3\obj\Debug\Task 3.csproj.GenerateResource.cache
+D:\Vega\Coding\Task 3\Task 3\obj\Debug\Task 3.csproj.CoreCompileInputs.cache
+D:\Vega\Coding\Task 3\Task 3\bin\Debug\Task 3.exe.config
+D:\Vega\Coding\Task 3\Task 3\bin\Debug\Task 3.exe
+D:\Vega\Coding\Task 3\Task 3\bin\Debug\Task 3.pdb
+D:\Vega\Coding\Task 3\Task 3\bin\Debug\System.ValueTuple.dll
+D:\Vega\Coding\Task 3\Task 3\bin\Debug\System.ValueTuple.xml
+D:\Vega\Coding\Task 3\Task 3\obj\Debug\Task 3.csproj.CopyComplete
+D:\Vega\Coding\Task 3\Task 3\obj\Debug\Task 3.exe
+D:\Vega\Coding\Task 3\Task 3\obj\Debug\Task 3.pdb
